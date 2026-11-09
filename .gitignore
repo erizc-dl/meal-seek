@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+
+# Python (recipe engine)
+__pycache__/
+*.pyc
+.venv/
+
+# Local files and context
+CLAUDE.md
+instructions.md
+progress.md
+bugs.md
+decisions.md
+recipe-edits.md
+/designs
+/tests
+/tools

@@ -1,0 +1,3734 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "sourceLanguage": "en",
+    "targetLanguage": "es"
+  },
+  "preparations": {
+    "about 1 m each": "unos 1 m cada uno",
+    "beaten": "batido",
+    "boiled": "hervido",
+    "boiled and chopped": "hervido y picado",
+    "boiled and diced": "hervido y en cubitos",
+    "boiled and halved": "hervido y cortado por la mitad",
+    "boiled and quartered": "hervido y en cuartos",
+    "boiled and sliced": "hervido y en rodajas",
+    "broken": "partido",
+    "broken into pieces": "partido en trozos",
+    "casing removed": "sin tripa",
+    "chopped": "picado",
+    "chunked": "en trozos",
+    "cooked": "cocido",
+    "cooked and chilled": "cocido y enfriado",
+    "cooked and diced": "cocido y en cubitos",
+    "cooked and flaked": "cocido y desmenuzado",
+    "cooked and shredded": "cocido y deshebrado",
+    "crisped": "crujiente",
+    "crumbled": "desmigajado",
+    "crushed": "triturado",
+    "cubed": "en cubos",
+    "cut into 2.5 cm thick steaks": "en bistecs de 2.5 cm de grosor",
+    "cut into 3 cm cubes": "en cubos de 3 cm",
+    "cut into bite-sized pieces": "en trozos pequeños",
+    "cut into chunks": "en trozos",
+    "cut into florets": "en ramilletes",
+    "cut into fries": "en bastones",
+    "cut into large pieces": "en trozos grandes",
+    "cut into lengths": "en secciones",
+    "cut into portions": "en porciones",
+    "cut into sections": "en secciones",
+    "cut into strips": "en tiras",
+    "cut into thin strips": "en tiras finas",
+    "cut into wedges": "en gajos",
+    "deseeded, julienned": "sin semillas y en juliana",
+    "deseeded, sliced diagonally": "sin semillas y cortado en diagonal",
+    "diced": "en cubitos",
+    "drained": "escurrido",
+    "drained and rinsed": "escurrido y enjuagado",
+    "dried": "seco",
+    "dried, heads and guts removed": "seco y sin cabeza ni vísceras",
+    "finely diced": "en cubitos finos",
+    "finely minced": "finamente picado",
+    "flaked": "desmenuzado",
+    "florets": "en ramilletes",
+    "formed into patties": "en hamburguesas",
+    "frozen": "congelado",
+    "grated": "rallado",
+    "ground": "molido",
+    "halved": "cortado por la mitad",
+    "halved and seeded": "cortado por la mitad y sin semillas",
+    "hot": "caliente",
+    "husked and halved": "deshojado y cortado por la mitad",
+    "in wedges": "en gajos",
+    "juiced": "exprimido",
+    "julienned": "en juliana",
+    "knotted": "anudado",
+    "leaves separated": "con las hojas separadas",
+    "legs trimmed, backs scored, deveined": "sin patas, con un corte en el lomo y desvenado",
+    "mashed": "hecho puré",
+    "melted": "derretido",
+    "minced": "finamente picado",
+    "peeled and deveined": "pelado y desvenado",
+    "peeled and diced": "pelado y en cubitos",
+    "pitted": "sin hueso",
+    "pitted and chopped": "sin hueso y picado",
+    "pounded thin": "aplanado",
+    "quartered": "en cuartos",
+    "rinsed": "enjuagado",
+    "roasted": "asado",
+    "roasted and sliced": "asado y en rodajas",
+    "roughly chopped": "picado grueso",
+    "sauteed": "salteado",
+    "separated into leaves": "separado en hojas",
+    "shelled": "pelado",
+    "shredded": "rallado",
+    "sliced": "en rodajas",
+    "smashed": "machacado",
+    "smashed and cut into sections": "machacado y en secciones",
+    "soaked": "remojado",
+    "softened": "ablandado",
+    "split": "abierto",
+    "thinly sliced": "en rodajas finas",
+    "to taste": "al gusto",
+    "toasted": "tostado",
+    "torn": "desgarrado",
+    "torn and toasted": "desgarrado y tostado",
+    "trimmed": "recortado",
+    "warmed": "calentado",
+    "wedged": "en gajos",
+    "zested and juiced": "con ralladura y exprimido"
+  },
+  "units": {
+    "can": "lata",
+    "clove": "diente",
+    "piece": "unidad",
+    "pinch": "pizca",
+    "slice": "rebanada",
+    "tbsp": "cda.",
+    "tsp": "cdta."
+  },
+  "ingredientGrammar": {
+    "acai puree": {
+      "gender": "m",
+      "number": "s"
+    },
+    "achiote paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "acorn squash": {
+      "gender": "f",
+      "number": "s"
+    },
+    "active dry yeast": {
+      "gender": "f",
+      "number": "s"
+    },
+    "aji amarillo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "aji amarillo paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "aji limo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "aji panca": {
+      "gender": "m",
+      "number": "s"
+    },
+    "all-purpose flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "allspice": {
+      "gender": "f",
+      "number": "s"
+    },
+    "almond": {
+      "gender": "f",
+      "number": "s"
+    },
+    "almond milk": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ancho chile": {
+      "gender": "m",
+      "number": "s"
+    },
+    "anchovies": {
+      "gender": "f",
+      "number": "p"
+    },
+    "anchovy broth": {
+      "gender": "m",
+      "number": "s"
+    },
+    "andouillette sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "anise seed": {
+      "gender": "f",
+      "number": "p"
+    },
+    "annatto oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "apple": {
+      "gender": "f",
+      "number": "s"
+    },
+    "apple cider": {
+      "gender": "f",
+      "number": "s"
+    },
+    "apple cider vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "arborio rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "arctic char fillet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "artichoke": {
+      "gender": "f",
+      "number": "s"
+    },
+    "arugula": {
+      "gender": "f",
+      "number": "s"
+    },
+    "asparagus": {
+      "gender": "m",
+      "number": "p"
+    },
+    "avocado": {
+      "gender": "m",
+      "number": "s"
+    },
+    "baby octopus": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bacon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "baking powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "baking soda": {
+      "gender": "m",
+      "number": "s"
+    },
+    "balsamic vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bamboo leaves": {
+      "gender": "f",
+      "number": "p"
+    },
+    "bamboo shoots": {
+      "gender": "m",
+      "number": "p"
+    },
+    "banana": {
+      "gender": "m",
+      "number": "s"
+    },
+    "banana leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "bannock": {
+      "gender": "m",
+      "number": "s"
+    },
+    "barbecue sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "barley": {
+      "gender": "f",
+      "number": "s"
+    },
+    "basil": {
+      "gender": "f",
+      "number": "s"
+    },
+    "basil pesto": {
+      "gender": "m",
+      "number": "s"
+    },
+    "basmati rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bay leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "bean sprouts": {
+      "gender": "m",
+      "number": "p"
+    },
+    "beef": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef bone": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef brisket": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef broth": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef chuck": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef cupim": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef cutlet": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef flank": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef gravy": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef heart": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef intestine": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef kidney": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef liver": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef lung": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef matambre": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef rib": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef roast": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef round": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef shank": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef short rib": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef sirloin": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef skirt": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef steak": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef sweetbread": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef tenderloin": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beef tongue": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef tri-tip": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beef tripe": {
+      "gender": "m",
+      "number": "s"
+    },
+    "beer": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beet": {
+      "gender": "f",
+      "number": "s"
+    },
+    "beet greens": {
+      "gender": "f",
+      "number": "p"
+    },
+    "bell pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bellflower root": {
+      "gender": "f",
+      "number": "s"
+    },
+    "betel leaves": {
+      "gender": "f",
+      "number": "p"
+    },
+    "bijao leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "bison": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bison roast": {
+      "gender": "m",
+      "number": "s"
+    },
+    "black bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "black bean paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "black cod": {
+      "gender": "m",
+      "number": "s"
+    },
+    "black lentils": {
+      "gender": "f",
+      "number": "p"
+    },
+    "black pepper": {
+      "gender": "f",
+      "number": "s"
+    },
+    "black rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "black tea": {
+      "gender": "m",
+      "number": "s"
+    },
+    "black vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "black-eyed pea": {
+      "gender": "m",
+      "number": "s"
+    },
+    "blood sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "blue cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "blue corn masa harina": {
+      "gender": "f",
+      "number": "s"
+    },
+    "blueberries": {
+      "gender": "m",
+      "number": "p"
+    },
+    "bok choy": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bolillo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bonito": {
+      "gender": "m",
+      "number": "p"
+    },
+    "bonito flakes": {
+      "gender": "f",
+      "number": "p"
+    },
+    "boondi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bourbon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bratwurst": {
+      "gender": "m",
+      "number": "s"
+    },
+    "brazilian sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "bread croutons": {
+      "gender": "m",
+      "number": "p"
+    },
+    "bread flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "bread roll": {
+      "gender": "m",
+      "number": "s"
+    },
+    "breadcrumbs": {
+      "gender": "m",
+      "number": "s"
+    },
+    "brioche bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "broccoli": {
+      "gender": "m",
+      "number": "s"
+    },
+    "broth": {
+      "gender": "m",
+      "number": "s"
+    },
+    "brown bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "brown rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "brown sugar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "brussels sprouts": {
+      "gender": "f",
+      "number": "p"
+    },
+    "bucatini": {
+      "gender": "m",
+      "number": "s"
+    },
+    "buckwheat": {
+      "gender": "m",
+      "number": "s"
+    },
+    "buckwheat flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "buckwheat noodle": {
+      "gender": "m",
+      "number": "p"
+    },
+    "buckwheat pizzoccheri pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "buffalo sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "bulgur": {
+      "gender": "m",
+      "number": "s"
+    },
+    "burdock root": {
+      "gender": "f",
+      "number": "s"
+    },
+    "butter": {
+      "gender": "f",
+      "number": "s"
+    },
+    "buttermilk dressing": {
+      "gender": "m",
+      "number": "s"
+    },
+    "butternut squash": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cabbage": {
+      "gender": "m",
+      "number": "s"
+    },
+    "calcot onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "calf liver": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cancha": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cancha corn": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned bamboo shoot": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned black beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned cannellini beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned chickpeas": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned chipotle pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned coconut milk": {
+      "gender": "f",
+      "number": "s"
+    },
+    "canned crushed tomatoes": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned diced tomatoes": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned hominy": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned kidney beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned peas": {
+      "gender": "f",
+      "number": "p"
+    },
+    "canned pinto bean": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned refried beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "canned tomato": {
+      "gender": "m",
+      "number": "s"
+    },
+    "canned tuna": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cantal cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "capers": {
+      "gender": "f",
+      "number": "p"
+    },
+    "caraway seeds": {
+      "gender": "f",
+      "number": "p"
+    },
+    "cardamom": {
+      "gender": "m",
+      "number": "s"
+    },
+    "carnaroli rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "carne de sol": {
+      "gender": "f",
+      "number": "s"
+    },
+    "carne seca": {
+      "gender": "f",
+      "number": "s"
+    },
+    "carp": {
+      "gender": "f",
+      "number": "s"
+    },
+    "carrot": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cashew": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cassava": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cassava flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "catfish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cauliflower": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cayenne": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cecína": {
+      "gender": "f",
+      "number": "s"
+    },
+    "celeriac": {
+      "gender": "m",
+      "number": "s"
+    },
+    "celery": {
+      "gender": "m",
+      "number": "s"
+    },
+    "century egg": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chaat masala": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chard": {
+      "gender": "f",
+      "number": "s"
+    },
+    "charqui": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chashu pork": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chayote": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cheddar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cheese curds": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cherry tomatoes": {
+      "gender": "m",
+      "number": "p"
+    },
+    "chestnut": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chia seeds": {
+      "gender": "f",
+      "number": "p"
+    },
+    "chicha de jora": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chicken": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chicken breast": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chicken broth": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chicken gravy": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chicken thigh": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chicken wings": {
+      "gender": "f",
+      "number": "p"
+    },
+    "chickpea flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chickpeas": {
+      "gender": "m",
+      "number": "p"
+    },
+    "chicory": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chile chilhuacle": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chile de arbol": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chili": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chili flakes": {
+      "gender": "f",
+      "number": "p"
+    },
+    "chili oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chili pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chili powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chimichurri": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chinese broccoli": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chinese sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "chipotle": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chipotle in adobo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chives": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chorizo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "chow mein noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "ciabatta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ciabatta bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cider": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cilantro": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cilantro root": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cinnamon": {
+      "gender": "f",
+      "number": "s"
+    },
+    "clam": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cloves": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cocoa powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "coconut": {
+      "gender": "m",
+      "number": "s"
+    },
+    "coconut sugar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cod": {
+      "gender": "m",
+      "number": "s"
+    },
+    "coffee": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cognac": {
+      "gender": "m",
+      "number": "s"
+    },
+    "collard greens": {
+      "gender": "f",
+      "number": "s"
+    },
+    "condensed milk": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cooked jasmine rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cooked rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "coriander": {
+      "gender": "m",
+      "number": "s"
+    },
+    "corn": {
+      "gender": "m",
+      "number": "s"
+    },
+    "corn flake": {
+      "gender": "f",
+      "number": "p"
+    },
+    "corn husks": {
+      "gender": "f",
+      "number": "p"
+    },
+    "corn tortilla": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cornbread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "corned beef": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cornichon": {
+      "gender": "m",
+      "number": "p"
+    },
+    "cornmeal": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cornstarch": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cotija cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "couscous": {
+      "gender": "m",
+      "number": "s"
+    },
+    "crab": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cracker": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cranberry": {
+      "gender": "m",
+      "number": "s"
+    },
+    "crawfish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cream": {
+      "gender": "f",
+      "number": "s"
+    },
+    "cream cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "crema": {
+      "gender": "f",
+      "number": "s"
+    },
+    "crozets pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "crusty bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cucumber": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cumin": {
+      "gender": "m",
+      "number": "s"
+    },
+    "curry leaves": {
+      "gender": "f",
+      "number": "p"
+    },
+    "curry powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "cuttlefish": {
+      "gender": "f",
+      "number": "s"
+    },
+    "daikon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dark chocolate": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dark soy sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "dashi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dates": {
+      "gender": "m",
+      "number": "p"
+    },
+    "deli turkey": {
+      "gender": "m",
+      "number": "s"
+    },
+    "demi glace sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "dende oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dijon mustard": {
+      "gender": "f",
+      "number": "s"
+    },
+    "dill": {
+      "gender": "m",
+      "number": "s"
+    },
+    "doenjang": {
+      "gender": "f",
+      "number": "s"
+    },
+    "dorado fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "doubanjiang": {
+      "gender": "m",
+      "number": "s"
+    },
+    "douchi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dried anchovy": {
+      "gender": "f",
+      "number": "p"
+    },
+    "dried chili": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dried chili pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dried daikon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dried kelp": {
+      "gender": "f",
+      "number": "s"
+    },
+    "dried lentils": {
+      "gender": "f",
+      "number": "p"
+    },
+    "dried potato": {
+      "gender": "f",
+      "number": "s"
+    },
+    "dried shiitake mushroom": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dried shrimp": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dried split peas": {
+      "gender": "f",
+      "number": "p"
+    },
+    "dry red wine": {
+      "gender": "m",
+      "number": "s"
+    },
+    "duck": {
+      "gender": "m",
+      "number": "s"
+    },
+    "duck breast": {
+      "gender": "f",
+      "number": "s"
+    },
+    "duck fat": {
+      "gender": "f",
+      "number": "s"
+    },
+    "duck leg": {
+      "gender": "m",
+      "number": "s"
+    },
+    "dumpling wrapper": {
+      "gender": "f",
+      "number": "s"
+    },
+    "edamame": {
+      "gender": "m",
+      "number": "s"
+    },
+    "eel": {
+      "gender": "f",
+      "number": "s"
+    },
+    "egg": {
+      "gender": "m",
+      "number": "s"
+    },
+    "egg noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "egg yolk": {
+      "gender": "f",
+      "number": "s"
+    },
+    "eggplant": {
+      "gender": "f",
+      "number": "s"
+    },
+    "elbow macaroni": {
+      "gender": "m",
+      "number": "p"
+    },
+    "emmentaler cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "endive": {
+      "gender": "f",
+      "number": "s"
+    },
+    "english muffin": {
+      "gender": "m",
+      "number": "s"
+    },
+    "enoki mushroom": {
+      "gender": "m",
+      "number": "s"
+    },
+    "epazote": {
+      "gender": "m",
+      "number": "s"
+    },
+    "escarole": {
+      "gender": "f",
+      "number": "s"
+    },
+    "evaporated milk": {
+      "gender": "f",
+      "number": "s"
+    },
+    "farmer cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "farofa": {
+      "gender": "f",
+      "number": "s"
+    },
+    "farro": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fava bean": {
+      "gender": "f",
+      "number": "s"
+    },
+    "fennel": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fennel powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fennel seed": {
+      "gender": "f",
+      "number": "p"
+    },
+    "fenugreek": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fermented black beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "fermented red bean curd": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fermented rice noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "fernbrake": {
+      "gender": "m",
+      "number": "s"
+    },
+    "feta": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fettuccine": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fiddlehead fern": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fig": {
+      "gender": "m",
+      "number": "s"
+    },
+    "firm tofu": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fish ball": {
+      "gender": "f",
+      "number": "s"
+    },
+    "fish cake": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fish head": {
+      "gender": "f",
+      "number": "s"
+    },
+    "fish sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "fish stock": {
+      "gender": "m",
+      "number": "s"
+    },
+    "five spice": {
+      "gender": "f",
+      "number": "p"
+    },
+    "flageolet bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "flatbread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "flattened rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "flour tortilla": {
+      "gender": "f",
+      "number": "s"
+    },
+    "freekeh": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fried onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "fried tofu pouch": {
+      "gender": "f",
+      "number": "s"
+    },
+    "fried wonton crisp": {
+      "gender": "m",
+      "number": "p"
+    },
+    "frisee": {
+      "gender": "m",
+      "number": "s"
+    },
+    "frozen mango": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fusilli": {
+      "gender": "m",
+      "number": "s"
+    },
+    "fusilli pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "galangal": {
+      "gender": "m",
+      "number": "s"
+    },
+    "garam masala": {
+      "gender": "m",
+      "number": "s"
+    },
+    "garlic": {
+      "gender": "m",
+      "number": "s"
+    },
+    "garlic chives": {
+      "gender": "m",
+      "number": "s"
+    },
+    "garlic powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "garrofon bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gelatin": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ghee": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ginger": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gingerbread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ginseng": {
+      "gender": "m",
+      "number": "s"
+    },
+    "glass noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "gluten-free gochujang": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gluten-free spaghetti": {
+      "gender": "m",
+      "number": "s"
+    },
+    "goat": {
+      "gender": "f",
+      "number": "s"
+    },
+    "gochugaru": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gochujang": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gofio": {
+      "gender": "m",
+      "number": "s"
+    },
+    "goose": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gosari": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gouda cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "granola": {
+      "gender": "f",
+      "number": "s"
+    },
+    "grape": {
+      "gender": "f",
+      "number": "s"
+    },
+    "grape leaves": {
+      "gender": "f",
+      "number": "p"
+    },
+    "greek yogurt": {
+      "gender": "m",
+      "number": "s"
+    },
+    "green beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "green bell pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "green chili pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "green curry paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "green mango": {
+      "gender": "m",
+      "number": "s"
+    },
+    "green onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "green papaya": {
+      "gender": "f",
+      "number": "s"
+    },
+    "green peppercorn": {
+      "gender": "f",
+      "number": "s"
+    },
+    "green plantain": {
+      "gender": "m",
+      "number": "s"
+    },
+    "green tea": {
+      "gender": "m",
+      "number": "s"
+    },
+    "green tomato": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ground beef": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ground bison": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ground chicken": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ground lamb": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ground pork": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ground turkey": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gruyere": {
+      "gender": "m",
+      "number": "s"
+    },
+    "gruyere cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "guajillo chile": {
+      "gender": "m",
+      "number": "s"
+    },
+    "guanciale": {
+      "gender": "m",
+      "number": "s"
+    },
+    "guinea pig": {
+      "gender": "m",
+      "number": "s"
+    },
+    "habanero chile": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hake": {
+      "gender": "f",
+      "number": "s"
+    },
+    "halloumi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ham": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hamburger bun": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hardtack": {
+      "gender": "f",
+      "number": "s"
+    },
+    "hazelnut": {
+      "gender": "f",
+      "number": "s"
+    },
+    "head-on shrimp": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hearts of palm": {
+      "gender": "m",
+      "number": "p"
+    },
+    "heavy cream": {
+      "gender": "f",
+      "number": "s"
+    },
+    "herbs de provence": {
+      "gender": "f",
+      "number": "p"
+    },
+    "herring": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hijiki": {
+      "gender": "f",
+      "number": "s"
+    },
+    "hoagie roll": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hoisin sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "honey": {
+      "gender": "f",
+      "number": "s"
+    },
+    "horse mackerel": {
+      "gender": "m",
+      "number": "s"
+    },
+    "horseradish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "horseradish leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "hot dog bun": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hot sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "huacatay": {
+      "gender": "m",
+      "number": "s"
+    },
+    "hummus": {
+      "gender": "m",
+      "number": "s"
+    },
+    "iberico pork": {
+      "gender": "m",
+      "number": "s"
+    },
+    "idli rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "italian sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "jalapeno": {
+      "gender": "m",
+      "number": "s"
+    },
+    "jambu": {
+      "gender": "m",
+      "number": "s"
+    },
+    "japanese curry roux": {
+      "gender": "m",
+      "number": "s"
+    },
+    "jasmine rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "jicama": {
+      "gender": "f",
+      "number": "s"
+    },
+    "jujube": {
+      "gender": "f",
+      "number": "s"
+    },
+    "juniper berry": {
+      "gender": "f",
+      "number": "p"
+    },
+    "kabocha squash": {
+      "gender": "f",
+      "number": "s"
+    },
+    "kaiser roll": {
+      "gender": "m",
+      "number": "s"
+    },
+    "kale": {
+      "gender": "f",
+      "number": "s"
+    },
+    "kashmiri chili": {
+      "gender": "m",
+      "number": "s"
+    },
+    "kefir": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ketchup": {
+      "gender": "m",
+      "number": "s"
+    },
+    "kidney beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "kimchi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "kiwi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "kohlrabi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "konnyaku": {
+      "gender": "m",
+      "number": "s"
+    },
+    "kvass": {
+      "gender": "m",
+      "number": "s"
+    },
+    "labneh": {
+      "gender": "m",
+      "number": "s"
+    },
+    "lake trout": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lamb": {
+      "gender": "m",
+      "number": "s"
+    },
+    "lamb chop": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lamb leg": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lamb lettuce": {
+      "gender": "m",
+      "number": "p"
+    },
+    "lard": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lasagna noodles": {
+      "gender": "f",
+      "number": "p"
+    },
+    "leek": {
+      "gender": "m",
+      "number": "s"
+    },
+    "lemon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "lemon juice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "lemongrass": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lettuce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lima beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "lime": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lime juice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "lobster": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lotus leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lotus root": {
+      "gender": "f",
+      "number": "s"
+    },
+    "lotus seed": {
+      "gender": "f",
+      "number": "p"
+    },
+    "mackerel": {
+      "gender": "f",
+      "number": "s"
+    },
+    "makrut lime leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mallow greens": {
+      "gender": "f",
+      "number": "p"
+    },
+    "mandu dumpling": {
+      "gender": "m",
+      "number": "s"
+    },
+    "manioc leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "maple syrup": {
+      "gender": "m",
+      "number": "s"
+    },
+    "marinara sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "marjoram": {
+      "gender": "f",
+      "number": "s"
+    },
+    "masa harina": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mashed potato": {
+      "gender": "m",
+      "number": "s"
+    },
+    "massaman curry paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "maultaschen": {
+      "gender": "m",
+      "number": "s"
+    },
+    "mayonnaise": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mexican chorizo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "milk": {
+      "gender": "f",
+      "number": "s"
+    },
+    "millet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "mint": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mirin": {
+      "gender": "m",
+      "number": "s"
+    },
+    "miso paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mitsuba": {
+      "gender": "m",
+      "number": "s"
+    },
+    "mixed berries": {
+      "gender": "m",
+      "number": "p"
+    },
+    "mixed salad greens": {
+      "gender": "f",
+      "number": "s"
+    },
+    "molasses": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mole sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "monterey jack": {
+      "gender": "m",
+      "number": "s"
+    },
+    "moong dal": {
+      "gender": "m",
+      "number": "s"
+    },
+    "morcilla": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mozzarella": {
+      "gender": "f",
+      "number": "s"
+    },
+    "msemen": {
+      "gender": "m",
+      "number": "s"
+    },
+    "mugwort": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mung bean flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mung beans": {
+      "gender": "m",
+      "number": "p"
+    },
+    "mushroom": {
+      "gender": "m",
+      "number": "s"
+    },
+    "mussel": {
+      "gender": "m",
+      "number": "s"
+    },
+    "mustard": {
+      "gender": "f",
+      "number": "s"
+    },
+    "mustard greens": {
+      "gender": "f",
+      "number": "p"
+    },
+    "mustard seeds": {
+      "gender": "f",
+      "number": "p"
+    },
+    "napa cabbage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "natto": {
+      "gender": "m",
+      "number": "s"
+    },
+    "navy bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "noodle": {
+      "gender": "m",
+      "number": "p"
+    },
+    "nopales": {
+      "gender": "m",
+      "number": "p"
+    },
+    "nori": {
+      "gender": "f",
+      "number": "s"
+    },
+    "nuremberg sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "nutmeg": {
+      "gender": "f",
+      "number": "s"
+    },
+    "nutritional yeast": {
+      "gender": "f",
+      "number": "s"
+    },
+    "octopus": {
+      "gender": "m",
+      "number": "s"
+    },
+    "okonomiyaki sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "okra": {
+      "gender": "f",
+      "number": "s"
+    },
+    "olive oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "olives": {
+      "gender": "f",
+      "number": "p"
+    },
+    "olluco": {
+      "gender": "m",
+      "number": "s"
+    },
+    "onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "orange": {
+      "gender": "f",
+      "number": "s"
+    },
+    "orange flower water": {
+      "gender": "f",
+      "number": "s"
+    },
+    "orange juice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "orecchiette": {
+      "gender": "m",
+      "number": "s"
+    },
+    "oregano": {
+      "gender": "m",
+      "number": "s"
+    },
+    "orzo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "oxtail": {
+      "gender": "m",
+      "number": "s"
+    },
+    "oyster sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pacu fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "padron pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "palm sugar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "panang curry paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pancetta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pandan leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "paneer": {
+      "gender": "m",
+      "number": "s"
+    },
+    "panko": {
+      "gender": "m",
+      "number": "s"
+    },
+    "panko breadcrumbs": {
+      "gender": "m",
+      "number": "s"
+    },
+    "papad": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pappardelle": {
+      "gender": "m",
+      "number": "s"
+    },
+    "paprika": {
+      "gender": "m",
+      "number": "s"
+    },
+    "parmesan": {
+      "gender": "m",
+      "number": "s"
+    },
+    "parmigiano reggiano": {
+      "gender": "m",
+      "number": "s"
+    },
+    "parsley": {
+      "gender": "m",
+      "number": "s"
+    },
+    "parsnip": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pasilla chile": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pea shoots": {
+      "gender": "m",
+      "number": "p"
+    },
+    "peach": {
+      "gender": "m",
+      "number": "s"
+    },
+    "peameal bacon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "peanut butter": {
+      "gender": "f",
+      "number": "s"
+    },
+    "peanut sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "peanuts": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pear": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pearl barley": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pearl onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "peas": {
+      "gender": "f",
+      "number": "p"
+    },
+    "pecorino romano": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pelmeni": {
+      "gender": "m",
+      "number": "s"
+    },
+    "penne pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pepitas": {
+      "gender": "f",
+      "number": "p"
+    },
+    "pequi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "perilla leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "perilla seed": {
+      "gender": "f",
+      "number": "p"
+    },
+    "phyllo dough": {
+      "gender": "f",
+      "number": "s"
+    },
+    "picanha beef": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pickerel": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pickled beet": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pickled cucumber": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pickled ginger": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pickled mustard greens": {
+      "gender": "f",
+      "number": "p"
+    },
+    "pickled onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pickled radish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pickled red chile": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pickles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "pig foot": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pike": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pike perch": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pine nut": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pineapple": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pinkel sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pinto bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pirarucu": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pistachio": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pita": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pita bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "plaice": {
+      "gender": "f",
+      "number": "s"
+    },
+    "plantain": {
+      "gender": "m",
+      "number": "s"
+    },
+    "poblano pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "polenta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pomegranate": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pomegranate molasses": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ponzu sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pork belly": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork cheek": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pork chop": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork cutlet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pork fat": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork knuckle": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pork leg": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork loin": {
+      "gender": "m",
+      "number": "s"
+    },
+    "pork rib": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork shoulder": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork stock gelatin": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pork trotter": {
+      "gender": "f",
+      "number": "s"
+    },
+    "potato": {
+      "gender": "f",
+      "number": "s"
+    },
+    "potato gnocchi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "potato starch": {
+      "gender": "f",
+      "number": "s"
+    },
+    "potato straw": {
+      "gender": "f",
+      "number": "p"
+    },
+    "preserved lemon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "prosciutto": {
+      "gender": "m",
+      "number": "s"
+    },
+    "provolone cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "prune": {
+      "gender": "f",
+      "number": "s"
+    },
+    "pumpkin": {
+      "gender": "f",
+      "number": "s"
+    },
+    "queijo coalho": {
+      "gender": "m",
+      "number": "s"
+    },
+    "queso fresco": {
+      "gender": "m",
+      "number": "s"
+    },
+    "quinoa": {
+      "gender": "f",
+      "number": "s"
+    },
+    "rabbit": {
+      "gender": "m",
+      "number": "s"
+    },
+    "raclette cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "radicchio": {
+      "gender": "m",
+      "number": "s"
+    },
+    "radish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "raisin": {
+      "gender": "f",
+      "number": "p"
+    },
+    "ramen noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "ranch dressing": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ras el hanout": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ravioli": {
+      "gender": "m",
+      "number": "p"
+    },
+    "raw crab": {
+      "gender": "m",
+      "number": "s"
+    },
+    "reblochon cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red bell pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red cabbage": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red chili pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red curry paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "red lentil": {
+      "gender": "f",
+      "number": "s"
+    },
+    "red miso": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red onion": {
+      "gender": "f",
+      "number": "s"
+    },
+    "red pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "red pepper flakes": {
+      "gender": "f",
+      "number": "p"
+    },
+    "red wine vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ribeye steak": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rice cakes": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rice flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "rice noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "rice syrup": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rice vermicelli": {
+      "gender": "m",
+      "number": "p"
+    },
+    "rice vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rice wine": {
+      "gender": "m",
+      "number": "s"
+    },
+    "riceberry rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ricotta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "rigatoni": {
+      "gender": "m",
+      "number": "s"
+    },
+    "roast chicken": {
+      "gender": "m",
+      "number": "s"
+    },
+    "roasted red pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rock sugar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rocoto pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rolled oats": {
+      "gender": "f",
+      "number": "s"
+    },
+    "rolled rice noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "romaine lettuce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "romeritos": {
+      "gender": "m",
+      "number": "p"
+    },
+    "rosemary": {
+      "gender": "m",
+      "number": "s"
+    },
+    "roti": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rutabaga": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rye berry": {
+      "gender": "m",
+      "number": "p"
+    },
+    "rye bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "rye flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "saffron": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sake": {
+      "gender": "m",
+      "number": "s"
+    },
+    "salmon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "salmon fillet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "salsa": {
+      "gender": "f",
+      "number": "s"
+    },
+    "salsa criolla": {
+      "gender": "f",
+      "number": "s"
+    },
+    "salsa verde": {
+      "gender": "f",
+      "number": "s"
+    },
+    "salsify": {
+      "gender": "m",
+      "number": "s"
+    },
+    "salt": {
+      "gender": "f",
+      "number": "s"
+    },
+    "salt beef": {
+      "gender": "f",
+      "number": "s"
+    },
+    "salt cod": {
+      "gender": "m",
+      "number": "s"
+    },
+    "salt pork": {
+      "gender": "m",
+      "number": "s"
+    },
+    "salted fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sambar powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sandwich bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sardine": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sauerkraut": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sausage casing": {
+      "gender": "f",
+      "number": "s"
+    },
+    "savory": {
+      "gender": "f",
+      "number": "s"
+    },
+    "savoy cabbage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "scallop": {
+      "gender": "f",
+      "number": "s"
+    },
+    "schupfnudeln": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sea bass": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sea bass fillet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sea bream": {
+      "gender": "m",
+      "number": "s"
+    },
+    "seaweed": {
+      "gender": "f",
+      "number": "s"
+    },
+    "semolina": {
+      "gender": "f",
+      "number": "s"
+    },
+    "serrano chile": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sesame oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sesame seeds": {
+      "gender": "f",
+      "number": "p"
+    },
+    "sev": {
+      "gender": "m",
+      "number": "s"
+    },
+    "seven spice": {
+      "gender": "f",
+      "number": "p"
+    },
+    "shallot": {
+      "gender": "f",
+      "number": "s"
+    },
+    "shaoxing wine": {
+      "gender": "m",
+      "number": "s"
+    },
+    "shiitake mushroom": {
+      "gender": "m",
+      "number": "s"
+    },
+    "shirataki noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "short noodle": {
+      "gender": "m",
+      "number": "p"
+    },
+    "short pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "short-grain rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "shortcrust pastry": {
+      "gender": "f",
+      "number": "s"
+    },
+    "shrimp": {
+      "gender": "m",
+      "number": "s"
+    },
+    "shrimp paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "shrimp powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sichuan peppercorn": {
+      "gender": "f",
+      "number": "s"
+    },
+    "silverside fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sirloin steak": {
+      "gender": "m",
+      "number": "s"
+    },
+    "small pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "small white fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "smoked meat": {
+      "gender": "f",
+      "number": "s"
+    },
+    "smoked paprika": {
+      "gender": "m",
+      "number": "s"
+    },
+    "smoked pork chop": {
+      "gender": "f",
+      "number": "s"
+    },
+    "smoked salmon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "snow crab": {
+      "gender": "m",
+      "number": "s"
+    },
+    "snow peas": {
+      "gender": "f",
+      "number": "p"
+    },
+    "soba noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "soft tofu": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sole fillet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "somen noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "sorghum": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sorrel": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sour cream": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sourdough bread": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sourdough starter": {
+      "gender": "f",
+      "number": "s"
+    },
+    "soy sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "soybean paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "soybean sprout": {
+      "gender": "m",
+      "number": "p"
+    },
+    "soybeans": {
+      "gender": "f",
+      "number": "s"
+    },
+    "spaetzle": {
+      "gender": "m",
+      "number": "s"
+    },
+    "spaghetti": {
+      "gender": "m",
+      "number": "s"
+    },
+    "spanish mackerel": {
+      "gender": "m",
+      "number": "s"
+    },
+    "spinach": {
+      "gender": "f",
+      "number": "s"
+    },
+    "split pea": {
+      "gender": "f",
+      "number": "s"
+    },
+    "spring roll wrappers": {
+      "gender": "f",
+      "number": "s"
+    },
+    "squid": {
+      "gender": "m",
+      "number": "s"
+    },
+    "squid ink": {
+      "gender": "f",
+      "number": "s"
+    },
+    "ssamjang": {
+      "gender": "m",
+      "number": "s"
+    },
+    "star anise": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sticky rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sturgeon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sub roll": {
+      "gender": "m",
+      "number": "s"
+    },
+    "suckling pig": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sugar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "suki sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sumac": {
+      "gender": "m",
+      "number": "s"
+    },
+    "summer savory": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sun-dried tomatoes": {
+      "gender": "m",
+      "number": "p"
+    },
+    "sunflower oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sushi rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "sweet bean paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "sweet potato": {
+      "gender": "m",
+      "number": "s"
+    },
+    "swiss cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tagliatelle": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tahini": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tamari": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tamarind paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tapioca flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tapioca starch": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tempeh": {
+      "gender": "m",
+      "number": "s"
+    },
+    "thai basil": {
+      "gender": "f",
+      "number": "s"
+    },
+    "thai chili": {
+      "gender": "m",
+      "number": "s"
+    },
+    "thai chili jam": {
+      "gender": "f",
+      "number": "s"
+    },
+    "thai chili pepper": {
+      "gender": "m",
+      "number": "s"
+    },
+    "thuringian sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "thyme": {
+      "gender": "m",
+      "number": "s"
+    },
+    "toasted rice powder": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tofu": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tofu skin": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tomatillo": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tomato": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tomato paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tomato sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tomme cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tonkatsu sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tonkotsu broth": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tortilla chips": {
+      "gender": "m",
+      "number": "p"
+    },
+    "trout": {
+      "gender": "f",
+      "number": "s"
+    },
+    "tucunaré fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tucupi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tuna": {
+      "gender": "m",
+      "number": "s"
+    },
+    "tuna steak": {
+      "gender": "m",
+      "number": "s"
+    },
+    "turkey": {
+      "gender": "m",
+      "number": "s"
+    },
+    "turkey breast": {
+      "gender": "f",
+      "number": "s"
+    },
+    "turkey sausage": {
+      "gender": "f",
+      "number": "s"
+    },
+    "turmeric": {
+      "gender": "f",
+      "number": "s"
+    },
+    "turnip": {
+      "gender": "m",
+      "number": "s"
+    },
+    "turnip greens": {
+      "gender": "f",
+      "number": "p"
+    },
+    "udon noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "umeboshi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "unagi eel": {
+      "gender": "f",
+      "number": "s"
+    },
+    "urad dal": {
+      "gender": "m",
+      "number": "s"
+    },
+    "valtellina cheese": {
+      "gender": "m",
+      "number": "s"
+    },
+    "vanilla extract": {
+      "gender": "m",
+      "number": "s"
+    },
+    "veal": {
+      "gender": "f",
+      "number": "s"
+    },
+    "veal cutlets": {
+      "gender": "f",
+      "number": "p"
+    },
+    "veal kidney": {
+      "gender": "m",
+      "number": "s"
+    },
+    "veal shanks": {
+      "gender": "m",
+      "number": "p"
+    },
+    "vegan kimchi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "vegetable broth": {
+      "gender": "m",
+      "number": "s"
+    },
+    "vegetable oil": {
+      "gender": "m",
+      "number": "s"
+    },
+    "venison": {
+      "gender": "m",
+      "number": "s"
+    },
+    "vermicelli": {
+      "gender": "m",
+      "number": "p"
+    },
+    "vinagreira leaf": {
+      "gender": "f",
+      "number": "s"
+    },
+    "vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "wakame": {
+      "gender": "f",
+      "number": "s"
+    },
+    "walnut": {
+      "gender": "f",
+      "number": "s"
+    },
+    "wasabi": {
+      "gender": "m",
+      "number": "s"
+    },
+    "water": {
+      "gender": "f",
+      "number": "s"
+    },
+    "water spinach": {
+      "gender": "f",
+      "number": "s"
+    },
+    "watercress": {
+      "gender": "m",
+      "number": "s"
+    },
+    "watermelon rind": {
+      "gender": "f",
+      "number": "s"
+    },
+    "wheat noodles": {
+      "gender": "m",
+      "number": "p"
+    },
+    "white bean": {
+      "gender": "m",
+      "number": "s"
+    },
+    "white fish fillet": {
+      "gender": "m",
+      "number": "s"
+    },
+    "white miso": {
+      "gender": "m",
+      "number": "s"
+    },
+    "white pepper": {
+      "gender": "f",
+      "number": "s"
+    },
+    "white wine": {
+      "gender": "m",
+      "number": "s"
+    },
+    "white wine vinegar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "whole chicken": {
+      "gender": "m",
+      "number": "s"
+    },
+    "whole fish": {
+      "gender": "m",
+      "number": "s"
+    },
+    "whole grain mustard": {
+      "gender": "f",
+      "number": "s"
+    },
+    "whole wheat flour": {
+      "gender": "f",
+      "number": "s"
+    },
+    "wide rice noodle": {
+      "gender": "m",
+      "number": "p"
+    },
+    "wild greens": {
+      "gender": "f",
+      "number": "p"
+    },
+    "wild rice": {
+      "gender": "m",
+      "number": "s"
+    },
+    "winter melon": {
+      "gender": "m",
+      "number": "s"
+    },
+    "winter squash": {
+      "gender": "f",
+      "number": "s"
+    },
+    "wonton wrapper": {
+      "gender": "f",
+      "number": "s"
+    },
+    "wood ear mushroom": {
+      "gender": "m",
+      "number": "s"
+    },
+    "worcestershire sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "yakisoba sauce": {
+      "gender": "f",
+      "number": "s"
+    },
+    "yam": {
+      "gender": "m",
+      "number": "s"
+    },
+    "yellow curry paste": {
+      "gender": "f",
+      "number": "s"
+    },
+    "yellowtail": {
+      "gender": "m",
+      "number": "s"
+    },
+    "yogurt": {
+      "gender": "m",
+      "number": "s"
+    },
+    "zaatar": {
+      "gender": "m",
+      "number": "s"
+    },
+    "ziti pasta": {
+      "gender": "f",
+      "number": "s"
+    },
+    "zucchini": {
+      "gender": "f",
+      "number": "s"
+    }
+  },
+  "preparationForms": {
+    "beaten": {
+      "ms": "batido",
+      "fs": "batida",
+      "mp": "batidos",
+      "fp": "batidas"
+    },
+    "boiled": {
+      "ms": "hervido",
+      "fs": "hervida",
+      "mp": "hervidos",
+      "fp": "hervidas"
+    },
+    "boiled and chopped": {
+      "ms": "hervido y picado",
+      "fs": "hervida y picada",
+      "mp": "hervidos y picados",
+      "fp": "hervidas y picadas"
+    },
+    "boiled and diced": {
+      "ms": "hervido y en cubitos",
+      "fs": "hervida y en cubitos",
+      "mp": "hervidos y en cubitos",
+      "fp": "hervidas y en cubitos"
+    },
+    "boiled and halved": {
+      "ms": "hervido y cortado por la mitad",
+      "fs": "hervida y cortada por la mitad",
+      "mp": "hervidos y cortados por la mitad",
+      "fp": "hervidas y cortadas por la mitad"
+    },
+    "boiled and quartered": {
+      "ms": "hervido y en cuartos",
+      "fs": "hervida y en cuartos",
+      "mp": "hervidos y en cuartos",
+      "fp": "hervidas y en cuartos"
+    },
+    "boiled and sliced": {
+      "ms": "hervido y en rodajas",
+      "fs": "hervida y en rodajas",
+      "mp": "hervidos y en rodajas",
+      "fp": "hervidas y en rodajas"
+    },
+    "broken": {
+      "ms": "partido",
+      "fs": "partida",
+      "mp": "partidos",
+      "fp": "partidas"
+    },
+    "broken into pieces": {
+      "ms": "partido en trozos",
+      "fs": "partida en trozos",
+      "mp": "partidos en trozos",
+      "fp": "partidas en trozos"
+    },
+    "chopped": {
+      "ms": "picado",
+      "fs": "picada",
+      "mp": "picados",
+      "fp": "picadas"
+    },
+    "cooked": {
+      "ms": "cocido",
+      "fs": "cocida",
+      "mp": "cocidos",
+      "fp": "cocidas"
+    },
+    "cooked and chilled": {
+      "ms": "cocido y enfriado",
+      "fs": "cocida y enfriada",
+      "mp": "cocidos y enfriados",
+      "fp": "cocidas y enfriadas"
+    },
+    "cooked and diced": {
+      "ms": "cocido y en cubitos",
+      "fs": "cocida y en cubitos",
+      "mp": "cocidos y en cubitos",
+      "fp": "cocidas y en cubitos"
+    },
+    "cooked and flaked": {
+      "ms": "cocido y desmenuzado",
+      "fs": "cocida y desmenuzada",
+      "mp": "cocidos y desmenuzados",
+      "fp": "cocidas y desmenuzadas"
+    },
+    "cooked and shredded": {
+      "ms": "cocido y deshebrado",
+      "fs": "cocida y deshebrada",
+      "mp": "cocidos y deshebrados",
+      "fp": "cocidas y deshebradas"
+    },
+    "crisped": {
+      "ms": "crujiente",
+      "fs": "crujiente",
+      "mp": "crujientes",
+      "fp": "crujientes"
+    },
+    "crumbled": {
+      "ms": "desmigajado",
+      "fs": "desmigajada",
+      "mp": "desmigajados",
+      "fp": "desmigajadas"
+    },
+    "crushed": {
+      "ms": "triturado",
+      "fs": "triturada",
+      "mp": "triturados",
+      "fp": "trituradas"
+    },
+    "deseeded, sliced diagonally": {
+      "ms": "sin semillas y cortado en diagonal",
+      "fs": "sin semillas y cortada en diagonal",
+      "mp": "sin semillas y cortados en diagonal",
+      "fp": "sin semillas y cortadas en diagonal"
+    },
+    "drained": {
+      "ms": "escurrido",
+      "fs": "escurrida",
+      "mp": "escurridos",
+      "fp": "escurridas"
+    },
+    "drained and rinsed": {
+      "ms": "escurrido y enjuagado",
+      "fs": "escurrida y enjuagada",
+      "mp": "escurridos y enjuagados",
+      "fp": "escurridas y enjuagadas"
+    },
+    "dried": {
+      "ms": "seco",
+      "fs": "seca",
+      "mp": "secos",
+      "fp": "secas"
+    },
+    "dried, heads and guts removed": {
+      "ms": "seco y sin cabeza ni vísceras",
+      "fs": "seca y sin cabeza ni vísceras",
+      "mp": "secos y sin cabeza ni vísceras",
+      "fp": "secas y sin cabeza ni vísceras"
+    },
+    "finely minced": {
+      "ms": "finamente picado",
+      "fs": "finamente picada",
+      "mp": "finamente picados",
+      "fp": "finamente picadas"
+    },
+    "flaked": {
+      "ms": "desmenuzado",
+      "fs": "desmenuzada",
+      "mp": "desmenuzados",
+      "fp": "desmenuzadas"
+    },
+    "frozen": {
+      "ms": "congelado",
+      "fs": "congelada",
+      "mp": "congelados",
+      "fp": "congeladas"
+    },
+    "grated": {
+      "ms": "rallado",
+      "fs": "rallada",
+      "mp": "rallados",
+      "fp": "ralladas"
+    },
+    "ground": {
+      "ms": "molido",
+      "fs": "molida",
+      "mp": "molidos",
+      "fp": "molidas"
+    },
+    "halved": {
+      "ms": "cortado por la mitad",
+      "fs": "cortada por la mitad",
+      "mp": "cortados por la mitad",
+      "fp": "cortadas por la mitad"
+    },
+    "halved and seeded": {
+      "ms": "cortado por la mitad y sin semillas",
+      "fs": "cortada por la mitad y sin semillas",
+      "mp": "cortados por la mitad y sin semillas",
+      "fp": "cortadas por la mitad y sin semillas"
+    },
+    "husked and halved": {
+      "ms": "deshojado y cortado por la mitad",
+      "fs": "deshojada y cortada por la mitad",
+      "mp": "deshojados y cortados por la mitad",
+      "fp": "deshojadas y cortadas por la mitad"
+    },
+    "juiced": {
+      "ms": "exprimido",
+      "fs": "exprimida",
+      "mp": "exprimidos",
+      "fp": "exprimidas"
+    },
+    "knotted": {
+      "ms": "anudado",
+      "fs": "anudada",
+      "mp": "anudados",
+      "fp": "anudadas"
+    },
+    "legs trimmed, backs scored, deveined": {
+      "ms": "sin patas, con un corte en el lomo y desvenado",
+      "fs": "sin patas, con un corte en el lomo y desvenada",
+      "mp": "sin patas, con un corte en el lomo y desvenados",
+      "fp": "sin patas, con un corte en el lomo y desvenadas"
+    },
+    "mashed": {
+      "ms": "hecho puré",
+      "fs": "hecha puré",
+      "mp": "hechos puré",
+      "fp": "hechas puré"
+    },
+    "melted": {
+      "ms": "derretido",
+      "fs": "derretida",
+      "mp": "derretidos",
+      "fp": "derretidas"
+    },
+    "minced": {
+      "ms": "finamente picado",
+      "fs": "finamente picada",
+      "mp": "finamente picados",
+      "fp": "finamente picadas"
+    },
+    "peeled and deveined": {
+      "ms": "pelado y desvenado",
+      "fs": "pelada y desvenada",
+      "mp": "pelados y desvenados",
+      "fp": "peladas y desvenadas"
+    },
+    "peeled and diced": {
+      "ms": "pelado y en cubitos",
+      "fs": "pelada y en cubitos",
+      "mp": "pelados y en cubitos",
+      "fp": "peladas y en cubitos"
+    },
+    "pitted and chopped": {
+      "ms": "sin hueso y picado",
+      "fs": "sin hueso y picada",
+      "mp": "sin hueso y picados",
+      "fp": "sin hueso y picadas"
+    },
+    "pounded thin": {
+      "ms": "aplanado",
+      "fs": "aplanada",
+      "mp": "aplanados",
+      "fp": "aplanadas"
+    },
+    "rinsed": {
+      "ms": "enjuagado",
+      "fs": "enjuagada",
+      "mp": "enjuagados",
+      "fp": "enjuagadas"
+    },
+    "roasted": {
+      "ms": "asado",
+      "fs": "asada",
+      "mp": "asados",
+      "fp": "asadas"
+    },
+    "roasted and sliced": {
+      "ms": "asado y en rodajas",
+      "fs": "asada y en rodajas",
+      "mp": "asados y en rodajas",
+      "fp": "asadas y en rodajas"
+    },
+    "roughly chopped": {
+      "ms": "picado grueso",
+      "fs": "picada grueso",
+      "mp": "picados grueso",
+      "fp": "picadas grueso"
+    },
+    "sauteed": {
+      "ms": "salteado",
+      "fs": "salteada",
+      "mp": "salteados",
+      "fp": "salteadas"
+    },
+    "separated into leaves": {
+      "ms": "separado en hojas",
+      "fs": "separada en hojas",
+      "mp": "separados en hojas",
+      "fp": "separadas en hojas"
+    },
+    "shelled": {
+      "ms": "pelado",
+      "fs": "pelada",
+      "mp": "pelados",
+      "fp": "peladas"
+    },
+    "shredded": {
+      "ms": "rallado",
+      "fs": "rallada",
+      "mp": "rallados",
+      "fp": "ralladas"
+    },
+    "smashed": {
+      "ms": "machacado",
+      "fs": "machacada",
+      "mp": "machacados",
+      "fp": "machacadas"
+    },
+    "smashed and cut into sections": {
+      "ms": "machacado y en secciones",
+      "fs": "machacada y en secciones",
+      "mp": "machacados y en secciones",
+      "fp": "machacadas y en secciones"
+    },
+    "soaked": {
+      "ms": "remojado",
+      "fs": "remojada",
+      "mp": "remojados",
+      "fp": "remojadas"
+    },
+    "softened": {
+      "ms": "ablandado",
+      "fs": "ablandada",
+      "mp": "ablandados",
+      "fp": "ablandadas"
+    },
+    "split": {
+      "ms": "abierto",
+      "fs": "abierta",
+      "mp": "abiertos",
+      "fp": "abiertas"
+    },
+    "toasted": {
+      "ms": "tostado",
+      "fs": "tostada",
+      "mp": "tostados",
+      "fp": "tostadas"
+    },
+    "torn": {
+      "ms": "desgarrado",
+      "fs": "desgarrada",
+      "mp": "desgarrados",
+      "fp": "desgarradas"
+    },
+    "torn and toasted": {
+      "ms": "desgarrado y tostado",
+      "fs": "desgarrada y tostada",
+      "mp": "desgarrados y tostados",
+      "fp": "desgarradas y tostadas"
+    },
+    "trimmed": {
+      "ms": "recortado",
+      "fs": "recortada",
+      "mp": "recortados",
+      "fp": "recortadas"
+    },
+    "warmed": {
+      "ms": "calentado",
+      "fs": "calentada",
+      "mp": "calentados",
+      "fp": "calentadas"
+    },
+    "zested and juiced": {
+      "ms": "con ralladura y exprimido",
+      "fs": "con ralladura y exprimida",
+      "mp": "con ralladura y exprimidos",
+      "fp": "con ralladura y exprimidas"
+    }
+  }
+}
