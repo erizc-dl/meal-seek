@@ -243,10 +243,29 @@ enum ShoppingListBuilder {
         householdSize: Int,
         pantryOverrides: [String: Bool] = [:]
     ) -> [GroceryItem] {
-        let aggregates = GroceryListBuilder.aggregate(
-            plan: plan, recipes: recipes, householdSize: householdSize
+        build(
+            aggregates: GroceryListBuilder.aggregate(plan: plan, recipes: recipes, householdSize: householdSize),
+            pantryOverrides: pantryOverrides
         )
+    }
 
+    /// The shopping list for an explicit list of picked recipes.
+    static func build(
+        recipeIDs: [String],
+        recipes: [Recipe],
+        servings: Int,
+        pantryOverrides: [String: Bool] = [:]
+    ) -> [GroceryItem] {
+        build(
+            aggregates: GroceryListBuilder.aggregate(recipeIDs: recipeIDs, recipes: recipes, householdSize: servings),
+            pantryOverrides: pantryOverrides
+        )
+    }
+
+    private static func build(
+        aggregates: [String: GroceryListBuilder.Aggregate],
+        pantryOverrides: [String: Bool]
+    ) -> [GroceryItem] {
         var items: [GroceryItem] = []
         for (name, aggregate) in aggregates {
             if isPantryStaple(name, overrides: pantryOverrides) {

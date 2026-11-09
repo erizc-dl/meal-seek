@@ -18,6 +18,10 @@ struct MealSeekApp: App {
     /// Display-layer recipe translations for the active app language (loads
     /// lazily on first lookup; nothing loads when the app is in English).
     private let translationStore = RecipeTranslationStore()
+    #if DEBUG
+    /// The 🧪 generator test lab (debug builds only).
+    @State private var showsLab = false
+    #endif
 
     init() {
         // RecipeStore owns the user-recipe store and merges the two pools, so
@@ -46,6 +50,19 @@ struct MealSeekApp: App {
                     OnboardingView(store: preferencesStore, recipeStore: recipeStore, onComplete: planCurrentWeek)
                 }
             }
+            #if DEBUG
+            .overlay(alignment: .bottomTrailing) {
+                Button { showsLab = true } label: {
+                    Text("🧪").font(.title2).padding(10).background(.thinMaterial, in: Circle())
+                }
+                .padding(.trailing, 16)
+                .padding(.bottom, 90)
+                .accessibilityLabel("Generator test lab")
+            }
+            .sheet(isPresented: $showsLab) {
+                GeneratorLabView(recipeStore: recipeStore)
+            }
+            #endif
             .environment(\.recipeTranslations, translationStore)
             // Recipe amounts follow the servings set in Account, the same
             // householdSize the grocery list already scales by.

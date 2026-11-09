@@ -64,6 +64,32 @@ struct Recipe: Codable, Identifiable {
     /// already exists and could scope this later; a bool cannot. Logged as a
     /// Phase 2 refinement in PRE_LAUNCH.md — do not widen the bool instead.
     var isUniversal: Bool = false
+
+    /// Meal preferences this recipe satisfies: any of "low_budget",
+    /// "under_30_min", "low_calorie" (estimated). Path 2 ranks by these.
+    var cuisineType: [String] = []
+
+    /// The diets this recipe FITS: any of "kosher", "halal", "vegetarian",
+    /// "vegan", computed from its ingredients by the recipe-db tools. A recipe
+    /// with no entry fits no diet, so a user recipe saved before diets existed
+    /// is hidden from every diet-restricted user rather than shown by mistake.
+    var dietRestrictions: [String] = []
+
+    /// The bundled photo and its credit. Nil for user recipes.
+    var image: RecipeImage? = nil
+}
+
+/// A bundled recipe photo, stored in the app as `recipe-images/<file>`.
+struct RecipeImage: Codable, Equatable {
+    /// File name, e.g. "mapo-tofu.webp". Xcode copies resources flat, so load by name.
+    let file: String
+    /// "commons", "pexels", "unsplash" or "ai".
+    let source: String
+    let sourcePage: String?
+    let author: String
+    /// e.g. "CC BY-SA 4.0", or "AI-generated".
+    let license: String
+    let licenseUrl: String?
 }
 
 // Decoding lives in an extension so the memberwise initializer keeps being
@@ -72,7 +98,8 @@ struct Recipe: Codable, Identifiable {
 extension Recipe {
     /// Hand-written because Swift's synthesized `init(from:)` does NOT fall
     /// back to a property's default value when its key is absent — it throws.
-    /// `role`, `isSoup` and `isUniversal` all post-date the recipes already
+    /// `role`, `isSoup`, `isUniversal`, `cuisineType`, `dietRestrictions` and
+    /// `image` all post-date the recipes already
     /// sitting in a beta tester's `Documents/user-recipes.json` and inside
     /// saved backup archives, so each must decode as absent. Every other field stays
     /// required: a missing `name` is still a corrupt record, and
@@ -95,6 +122,9 @@ extension Recipe {
         role = try container.decodeIfPresent(DishRole.self, forKey: .role) ?? .unassigned
         isSoup = try container.decodeIfPresent(Bool.self, forKey: .isSoup) ?? false
         isUniversal = try container.decodeIfPresent(Bool.self, forKey: .isUniversal) ?? false
+        cuisineType = try container.decodeIfPresent([String].self, forKey: .cuisineType) ?? []
+        dietRestrictions = try container.decodeIfPresent([String].self, forKey: .dietRestrictions) ?? []
+        image = try container.decodeIfPresent(RecipeImage.self, forKey: .image)
     }
 }
 

@@ -97,14 +97,20 @@ enum GroceryListBuilder {
     /// silent undercount. Rounding and display-unit choice happen strictly
     /// after this, never during summation.
     static func aggregate(plan: WeekPlan, recipes: [Recipe], householdSize: Int) -> [String: Aggregate] {
-        let recipesByID = Dictionary(recipes.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
-        var aggregates: [String: Aggregate] = [:]
-
         // Only the dishes the user actually intends to cook. A candidate they
         // did not select is not shopped for — that is the whole contract of the
         // selection sheet, and it is enforced here rather than in the view so
         // every surface (list, nudge count, share card) agrees.
-        for recipeID in plan.meals.flatMap(\.selectedIDs) {
+        aggregate(recipeIDs: plan.meals.flatMap(\.selectedIDs), recipes: recipes, householdSize: householdSize)
+    }
+
+    /// The same consolidation for an explicit list of picked recipes (the
+    /// Meal Seek paths: pick recipes → servings → grocery list).
+    static func aggregate(recipeIDs: [String], recipes: [Recipe], householdSize: Int) -> [String: Aggregate] {
+        let recipesByID = Dictionary(recipes.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
+        var aggregates: [String: Aggregate] = [:]
+
+        for recipeID in recipeIDs {
             guard let recipe = recipesByID[recipeID], recipe.baseServings > 0 else { continue }
             let scale = Double(householdSize) / Double(recipe.baseServings)
 

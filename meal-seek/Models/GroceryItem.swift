@@ -40,6 +40,10 @@ struct GroceryItem: Identifiable, Hashable {
     /// everything (g, ml, piece, bunch). Defaults nil so canonical
     /// consolidation (`GroceryListBuilder.build`) is unchanged.
     var approximateGrams: Double? = nil
+    /// How much the recipes actually use when the row is a package
+    /// ("1 bag" rice → "~300 g"), so a shopper with a different pack size can
+    /// still judge. Set by `GroceryPlanner`; nil elsewhere.
+    var neededAmount: String? = nil
 }
 
 extension GroceryItem {
@@ -49,7 +53,17 @@ extension GroceryItem {
         guard let quantity else { return nil }
         let number = quantity == quantity.rounded() ? String(Int(quantity)) : String(quantity)
         guard let unit, unit != "piece" else { return number }
-        return "\(number) \(unit)\(Self.weightSuffix(approximateGrams))"
+        return "\(number) \(Self.unitWord(unit, quantity: quantity))\(Self.weightSuffix(approximateGrams))"
+    }
+
+    /// Symbols stay as they are ("2 kg"); English words get a plural
+    /// ("2 cans", "2 bunches", "2 loaves").
+    static func unitWord(_ unit: String, quantity: Double) -> String {
+        let symbols: Set<String> = ["g", "kg", "ml", "l", "oz", "lb", "tsp", "tbsp"]
+        guard quantity != 1, !symbols.contains(unit) else { return unit }
+        if unit == "loaf" { return "loaves" }
+        if unit.hasSuffix("ch") || unit.hasSuffix("sh") || unit.hasSuffix("x") { return unit + "es" }
+        return unit + "s"
     }
 
     /// " (~800 g)" / " (~1.2 kg)", or "" when there is no weight to add. Pure
